@@ -30,10 +30,15 @@
 }
 
 .featureContainer {
-  height: 90vh;
-  width: 95vw;
+  height: 100vh;
+  width: 85vw;
   background-color: #fffbf5;
   padding: 0%;
+}
+
+.conatiner-fluid {
+  height: 100vp;
+  width: 90vw;
 }
 
 #root {

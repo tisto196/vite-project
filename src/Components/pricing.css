@@ -1,0 +1,35 @@
+.cc {
+  height: 100vh;
+  width: 85vw;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+}
+.innercc {
+  height: 30em;
+  width: 20em;
+  background-color: #89cff3;
+  margin-top: 5em;
+  border-style: dotted;
+  border-radius: 40px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin-top: 5px;
+}
+.cch {
+  display: grid;
+  text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .cc {
+    height: 100em;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mc {
+    margin-top: 150px;
+  }
+}
