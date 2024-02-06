@@ -3,7 +3,7 @@ import "../App.css";
 
 function Navbar() {
   return (
-    <nav className=" container-fluid navbar navbar-expand-lg bg-body-success ">
+    <nav className=" container-fluid navbar navbar-expand-lg bg-body-success m-0 ">
       <div className="container-fluid navColor ms-5 me-5 h-100 bs-20">
         <a className="navbar-brand fs-1 fw-bolder" href="#">
           TVCharge

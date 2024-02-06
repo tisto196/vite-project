@@ -1,26 +1,41 @@
+@import url("https://fonts.googleapis.com/css2?family=Protest+Guerrilla&display=swap");
 .navColor {
-  background-color: #f3b95f;
+  background-color: #40a2e3;
   border-style: dotted;
-  border-color: #fde767;
+  border-color: #bbe2ec;
   border-radius: 30px;
   border-width: 5px;
   border-left: 50px;
   border-right: 50px;
 }
-
+.navbar {
+  margin: 0%;
+}
 .col {
   height: 400px;
   width: 50px;
-  border: 1px solid;
 }
 .child {
-  height: inherit;
-  width: inherit;
-  font-size: inherit;
-  padding: inherit;
-  margin: inherit;
-  line-height: inherit;
+  height: 100%;
+  width: 100%;
 }
+
+.dynamic {
+  font-family: "Protest Guerrilla", sans-serif;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+  justify-content: center;
+  align-items: start;
+}
+
+.featureContainer {
+  height: 90vh;
+  width: 95vw;
+  background-color: #fffbf5;
+  padding: 0%;
+}
+
 #root {
   max-width: 1280px;
   margin: 0 auto;

@@ -1,6 +1,7 @@
 import { useState } from "react";
 import Navbar from "./Components/navbar";
 import Home from "./Components/Home";
+import Feature from "./Components/Feature";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -10,6 +11,7 @@ function App() {
       <div>
         <Navbar />
         <Home />
+        <Feature />
       </div>
       {/* <div className="container-fluid d-flex flex-lg-row">
           <button
